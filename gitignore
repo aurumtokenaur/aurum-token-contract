@@ -1,0 +1,19 @@
+# Ignore secrets
+.env
+*.key
+*.pem
+
+# Ignore node modules and deps
+node_modules/
+npm-debug.log
+yarn-error.log
+.deps/
+github/
+OpenZeppelin/
+@openzeppelin/
+npm/
+
+# Ignore build cache
+.cache/
+dist/
+build/
